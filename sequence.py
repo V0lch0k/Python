@@ -10,8 +10,8 @@ for i in range(0,2,1):
         print(x[i])
 
 for i in range(2,10,1):
-    x[i] = 0.2 * x[i-1] + 1.2 * x[i-2]
-    print(np.round(x[i],7))
+        x[i] = 0.2 * x[i-1] + 1.2 * x[i-2]
+        print(np.round(x[i],7))
 
 for i in range(0,10,1):
         if(2 < x[i] <3):
