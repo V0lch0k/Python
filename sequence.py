@@ -16,7 +16,7 @@ for i in range(2,10,1):
         x[i] = 0.2 * x[i-1] + 1.2 * x[i-2]
         print(np.round(x[i],7))
 
-#calculate sum of values that are between 2 and 3
+#calculate sum of values that are between 2 and 3 inclusive
 for i in range(0,10,1):
         if(2 <= x[i] <= 3):
                 sum23x += x[i]
