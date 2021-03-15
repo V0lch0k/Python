@@ -1,5 +1,6 @@
 import numpy as np
 
+#initialize values
 x = np.zeros(10)
 x[0] = 1
 x[1]= 1.5
