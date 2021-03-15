@@ -18,7 +18,7 @@ for i in range(2,10,1):
 
 #calculate sum of values that are between 2 and 3
 for i in range(0,10,1):
-        if(2 < x[i] <3):
+        if(2 <= x[i] <= 3):
                 sum23x += x[i]
 
 #calculate total sum
