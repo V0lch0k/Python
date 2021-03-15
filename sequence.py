@@ -1,11 +1,10 @@
 import numpy as np
 
-#initialize values
+#initialize variables
 x = np.zeros(10)
 x[0] = 1
 x[1]= 1.5
-sumx = 0
-sum23x = 0
+sumx = sum23x = 0
 
 #print initial values
 for i in range(0,2,1):
